@@ -1,0 +1,20 @@
+{
+    "name": "quguo/restful",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "halo",
+            "email": "758861884@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "topthink/framework": "~5.0.0",
+        "firebase/php-jwt": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "quguo\\": "src/"
+        }
+    }
+}
