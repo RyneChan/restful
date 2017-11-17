@@ -3,7 +3,7 @@
 namespace Quguo;
 use think\Request;
 use think\Config;
-use RestAuth\Base;
+use Quguo\Base;
 use Firebase\JWT\JWT;
 class Restful extends Base
 {
